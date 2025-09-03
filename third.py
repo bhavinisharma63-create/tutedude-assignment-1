@@ -16,5 +16,5 @@ Enter "help" below or click "Help" above for more information.
 ... 
 ... b=int(input('enter the number: '))
 ... from math import *
-... print("square: ",sqrt(b))
-... print("logarithm: ",log(b))
+... print("square: ",b**2)
+... print("logarithm: ",log10(b))
